@@ -2,12 +2,6 @@
 name: myapp-publish
 on:
   push:
-    branches:
-      - master
-    tags:
-      - '*'
-    paths:
-      - react-app/version.json
 jobs:
   build:
     env:
