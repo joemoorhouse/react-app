@@ -6,7 +6,7 @@ jobs:
   build:
     env:
       context: src
-      image_name: react-app
+      image_name: reactapp
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
