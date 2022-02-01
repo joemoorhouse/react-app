@@ -5,7 +5,7 @@ on:
 jobs:
   build:
     env:
-      context: reactapp
+      context: react-app
       image_name: reactapp
     runs-on: ubuntu-latest
     steps:
