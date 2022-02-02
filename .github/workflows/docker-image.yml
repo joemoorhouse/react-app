@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           path: .
-          registry: quay.io
+          registry: quay.io/joemoorhouse
           repository: test/${{ env.image_name }}
           username: joemoorhouse
           password: ${{ secrets.QUAYPASSWORD }}
