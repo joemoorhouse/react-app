@@ -5,7 +5,7 @@ name: Run tests, build and push image
 
 env:
   APP_NAME: "react-app"
-  IMAGE_REGISTRY: "quay.io/joemoorhouse"
+  IMAGE_REGISTRY: "quay.io/joemoorhouse/test"
   IMAGE_REGISTRY_USER: "joemoorhouse"
   IMAGE_REGISTRY_PASSWORD: ${{ github.token }} # need to update with real credentials
   IMAGE_TAGS: ""
